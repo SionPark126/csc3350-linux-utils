@@ -1,15 +1,9 @@
 # Lab 1 - Linux Utilities
-In this lab, you will implement your own "cool" versions of some popular Linux programs. All programs must
-be written in C. **No C++ or other languages are allowed.** All programs must be built and tested on
-`luke.cs.spu.edu` – your code must work on `luke`, I will not test it elsewhere.
 
-You will be working **individually** for this lab. You may discuss high-level concepts with other students,
-but you should never share solutions or show each other code.
+This project is implementing own linux programs.
 
-There are three requirements for this assignment that contribute to your final grade: the programs
-themselves, comments and style, and GitHub commits.
+### The Project Description
 
-### The Programs
   Note: parameters in `[]` are optional, parameters in `<>` are required. The `|` (pipe) means "or."
   
 #### cool_cat
