@@ -1,0 +1,28 @@
+
+Note: Parameters in [] are optional, the "|"(pipe) means "or".
+
+Usage: ./cool_cat [file.txt]
+	This program concatenates files and prints them on the standard ouput.
+	If the [file.txt] is specified, it prints out what is contained in the [file.txt].
+	If the [file.txt] argument is not specified, it repeats what user types on standard input
+	and prints it back to standard output.
+
+Usage: ./cool_echo [arg] [arg] … [arg]
+	This program writes arugments to the standard output. The number of argument is not limited,
+	the program will write all the arguments to the standard output. If no argument is passed, 
+	it will print a blank new line and end the program.
+
+Usage: ./cool_head [-n N] [file.txt]
+	This program prints the first N lines of the [file.txt] to the standard output.
+	If -n flag is not specified, the default number of lines to print is 5. If [file.txt]
+	argument is not specified, it will read from standard input until the user hits CTRL+D,
+	and print the first N lines specified by the user. The order of [-n N] and [file.txt] does
+	not matter.
+
+
+Usage: ./cool_wc [-l|c] [file.txt]
+	This program counts the number of words of the [file.txt] and prints it to the standard output.
+	If -l flag is set, then the program prints the number of lines instead. If -c flag is set, 
+	then the program print the number of character instead. If the [file.txt] argument is not 
+	specified, then it reads from standard input until the user hits CTRL+D and it prints the 
+	result depending on what flag the user specified. The default is printing the number of words.
